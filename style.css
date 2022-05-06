@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: hsl(185, 75%, 39%); */
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg);
+    /* border: solid hsl(185, 75%, 39%); */
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+
+
+.container{
+    width: 345px;
+    margin: 110px auto 0;
+    grid-template-columns: repeat(1fr);
+    border-radius: 40px;
+    overflow: hidden;
+     border: 2px solid hsl(185, 75%, 39%);background-color: white;
+     font-size: 18px;
+     /* padding nav-up: 10px; */
+     /* background-color: hsl(185, 75%, 39%); */
+     /* color: none; */
+     border-style: none;
+}
+
+
+
+ul{
+    display: grid;
+    margin: 15px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* padding: 10px; */
+    margin-left: 55px;
+    list-style: none;
+   /* background-color: white; */
+   /* font-size: medium; */
+    
+    
+}
+
+
+small{
+    /* margin-left: 30px; */
+    color: hsl(0, 0%, 59%)
+    
+}
+
+span{
+    /* margin-left: 30px;    */
+    font-size: medium;
+    color: hsl(0, 0%, 59%);
+}
+
+.line2{
+    /* max-width: 100px; */
+    margin-top: -50px;
+    margin-left: 108px;
+    margin-bottom: 15px;
+    /* padding: 0 auto 0; */
+}
+
+img{
+    /* max-width: 1000px; */
+    /* margin: 0 100px; */
+}
+
+.line2 img{
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+
+.line2 h3{
+    margin: 15px;
+    font-size: medium;
+}
+
+
+.line small{
+    margin: -2px;
+    font-size: small;
+}
+
+.line2 small{
+    margin: 40px;
+}
+
+
+hr{
+    color: hsl(0, 0%, 59%);
+}
+
+.challeng{
+    margin-left: 700px;
+    /* display: flex; */
+    
+}
+
+
+.challeng h6{
+   /* margin: 10px; */
+   color: rgb(225, 212, 220);
+}
+
+
+.challeng h5{
+    margin-left: 25px;
+    color: darkmagenta;
+}
+
